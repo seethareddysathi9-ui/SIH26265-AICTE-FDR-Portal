@@ -1,0 +1,37 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded documents
+backend/uploads/*
+
+# Node
+node_modules/
+frontend/dist/
+
+# Build and cache
+.cache/
+.vite/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+SIH26265_Submission.zip
